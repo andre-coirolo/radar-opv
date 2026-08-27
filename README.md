@@ -61,6 +61,8 @@ Possibilita selecionar um ou mais grupos para comparar o desempenho.
 
 ### 📈 Produtividade
 
+Indicador utilizado para avaliar a quantidade de produção realizada dentro da regra de negócio definida.
+
 - evolução temporal;
 - meta;
 - tendência;
@@ -68,6 +70,8 @@ Possibilita selecionar um ou mais grupos para comparar o desempenho.
 - média por colaborador.
 
 ### ♻️ Retrabalho
+
+Indicador utilizado para identificar a proporção de atividades que necessitaram de retrabalho.
 
 - evolução do retrabalho;
 - tendência suavizada;
@@ -77,6 +81,8 @@ Possibilita selecionar um ou mais grupos para comparar o desempenho.
 
 ### 🟢 SLA
 
+Indicador relacionado ao cumprimento do prazo esperado para atendimento/resolução.
+
 - evolução temporal;
 - comparação com a meta;
 - acompanhamento do desempenho dentro do SLA;
@@ -85,6 +91,8 @@ Possibilita selecionar um ou mais grupos para comparar o desempenho.
 
 ### ⏱️ TMR
 
+Indicador de tempo médio de resposta dos chamados, utilizado para acompanhar a duração média dos atendimentos ou processos avaliados.
+
 - evolução temporal;
 - comparação com a meta;
 - acompanhamento do tempo médio de resolução/atendimento;
@@ -92,6 +100,8 @@ Possibilita selecionar um ou mais grupos para comparar o desempenho.
 - resultado consolidado do período selecionado.
 
 ### 😊 Índice de Solução
+
+Indicador utilizado para medir a proporção de casos solucionados segundo os próprios clientes (considera as respostas dos clientes em pesquisas feitas via Email e/ou URA)
 
 - evolução mensal;
 - comparação com a meta;
@@ -135,49 +145,6 @@ Visualizações
      ↓
 Dashboard
 ```
-
----
-
-## 📐 Indicadores
-
-### Produtividade
-
-Indicador utilizado para avaliar a quantidade de produção realizada dentro da regra de negócio definida.
-
-A fórmula exata deve ser documentada conforme a definição oficial utilizada pela operação.
-
----
-
-### Retrabalho
-
-Indicador utilizado para identificar a proporção de atividades que necessitaram de retrabalho.
-
-A fórmula e os critérios de classificação devem seguir a regra de negócio oficial.
-
----
-
-### SLA
-
-Indicador relacionado ao cumprimento do prazo esperado para atendimento/resolução.
-
----
-
-### TMR
-
-Indicador de tempo médio, utilizado para acompanhar a duração média dos atendimentos ou processos avaliados.
-
----
-
-### Índice de Solução
-
-Indicador utilizado para medir a proporção de casos solucionados segundo a regra de negócio adotada.
-
-O dashboard permite analisar o indicador:
-
-- mensalmente;
-- por canal;
-- por período;
-- em relação à meta.
 
 ---
 
