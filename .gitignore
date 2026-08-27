@@ -1,0 +1,25 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Bases originais e arquivos de trabalho
+data/old/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente / credenciais
+.env
+.env.*
+
+# Arquivos temporários
+*.tmp
+*.log
