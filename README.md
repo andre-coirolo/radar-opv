@@ -1,148 +1,148 @@
 # 📊 Radar OPV
 
-Dashboard interativo desenvolvido em **Python + Streamlit** para acompanhamento e análise de indicadores operacionais, permitindo explorar métricas por período, grupo e diferentes dimensões de desempenho.
+Interactive dashboard developed in **Python + Streamlit** for monitoring and analyzing operational indicators, allowing users to explore metrics by period, group, and different performance dimensions.
 
-O projeto foi pensado para transformar dados operacionais em informações visuais e acionáveis, facilitando a identificação de tendências, desvios em relação às metas e diferenças de desempenho entre grupos e colaboradores.
+The project was designed to transform operational data into visual and actionable information, making it easier to identify trends, deviations from targets, and performance differences between groups and employees.
 
-A proposta é permitir que diferentes níveis de análise — do acompanhamento geral ao detalhamento por grupo e colaborador — estejam disponíveis em um único ambiente.
+The goal is to make different levels of analysis — from general monitoring to detailed analysis by group and employee — available in a single environment.
 
-> **Dados melhores → análises melhores → decisões melhores.**
+> **Better data → better analysis → better decisions.**
 
 ---
 
 ## 📸 Preview
 
-Abaixo estão algumas imagens do dashboard, mostrando algumas das abas e funcionalidades contidas no projeto!
+Below are some screenshots of the dashboard, showcasing some of the tabs and features included in the project!
 
-### Retrabalho
+### Rework
 
-Visualização da evolução do indicador de retrabalho ao longo do tempo, incluindo tendência suavizada, meta e comparação entre grupos.
+Visualization of the rework indicator over time, including smoothed trend, target, and comparison between groups.
 
-![Retrabalho OPV](assets/screenshots/retrabalho-selecionado.png)
+![OPV Rework](assets/screenshots/retrabalho-selecionado.png)
 
-### Índice de Solução
+### Solution Index
 
-Acompanhamento do Índice de Solução mensal, com comparação contra a meta e detalhamento por canal.
+Monitoring of the monthly Solution Index, with comparison against the target and breakdown by channel.
 
-![Índice de Solução](assets/screenshots/indice-solucao-geral.png)
+![Solution Index](assets/screenshots/indice-solucao-geral.png)
 
-### Produtividade
+### Productivity
 
-Análise da produtividade ao longo do período selecionado e comparação entre grupos.
+Analysis of productivity over the selected period and comparison between groups.
 
-![Produtividade](assets/screenshots/produtividade-geral.png)
-
----
-
-## 🎯 Objetivo
-
-O **Radar OPV** tem como objetivo centralizar indicadores operacionais em um único ambiente interativo, permitindo que o usuário:
-
-- acompanhe a evolução dos indicadores ao longo do tempo;
-- compare resultados com metas estabelecidas;
-- filtre períodos e grupos;
-- identifique tendências;
-- compare grupos de forma visual;
-- analise médias por colaborador;
-- acompanhe diferentes indicadores em uma única aplicação;
-- transforme dados operacionais em insights para tomada de decisão.
+![Productivity](assets/screenshots/produtividade-geral.png)
 
 ---
 
-## 🚀 Funcionalidades
+## 🎯 Objective
 
-### 📅 Filtro por período
+The **Radar OPV** aims to centralize operational indicators in a single interactive environment, allowing users to:
 
-Permite selecionar o intervalo de datas utilizado nas análises.
+- track the evolution of indicators over time;
+- compare results against established targets;
+- filter periods and groups;
+- identify trends;
+- visually compare groups;
+- analyze averages by employee;
+- monitor different indicators within a single application;
+- transform operational data into insights for decision-making.
 
-### 👥 Filtro por grupo
+---
 
-Possibilita selecionar um ou mais grupos para comparar o desempenho.
+## 🚀 Features
 
-### 📈 Produtividade
+### 📅 Period Filter
 
-Indicador utilizado para avaliar a quantidade de produção realizada dentro da regra de negócio definida.
+Allows users to select the date range used in the analyses.
 
-- evolução temporal;
-- meta;
-- tendência;
-- comparação entre grupos;
-- média por colaborador.
+### 👥 Group Filter
 
-### ♻️ Retrabalho
+Allows users to select one or more groups to compare performance.
 
-Indicador utilizado para identificar a proporção de atividades que necessitaram de retrabalho.
+### 📈 Productivity
 
-- evolução do retrabalho;
-- tendência suavizada;
-- comparação com a meta;
-- comparação entre grupos;
-- média por colaborador.
+Indicator used to evaluate the amount of production achieved according to the defined business rule.
+
+- time evolution;
+- target;
+- trend;
+- comparison between groups;
+- average by employee.
+
+### ♻️ Rework
+
+Indicator used to identify the proportion of activities that required rework.
+
+- rework evolution;
+- smoothed trend;
+- comparison against the target;
+- comparison between groups;
+- average by employee.
 
 ### 🟢 SLA
 
-Indicador relacionado ao cumprimento do prazo esperado para atendimento/resolução.
+Indicator related to compliance with the expected service/resolution timeframe.
 
-- evolução temporal;
-- comparação com a meta;
-- acompanhamento do desempenho dentro do SLA;
-- comparação entre grupos;
-- resultado consolidado do período selecionado.
+- time evolution;
+- comparison against the target;
+- SLA performance monitoring;
+- comparison between groups;
+- consolidated result for the selected period.
 
 ### ⏱️ TMR
 
-Indicador de tempo médio de resposta dos chamados, utilizado para acompanhar a duração média dos atendimentos ou processos avaliados.
+Indicator of the average response time for tickets, used to monitor the average duration of the evaluated services or processes.
 
-- evolução temporal;
-- comparação com a meta;
-- acompanhamento do tempo médio de resolução/atendimento;
-- comparação entre grupos;
-- resultado consolidado do período selecionado.
+- time evolution;
+- comparison against the target;
+- average resolution/service time monitoring;
+- comparison between groups;
+- consolidated result for the selected period.
 
-### 😊 Índice de Solução
+### 😊 Solution Index
 
-Indicador utilizado para medir a proporção de casos solucionados segundo os próprios clientes (considera as respostas dos clientes em pesquisas feitas via Email e/ou URA)
+Indicator used to measure the proportion of cases considered solved by the customers themselves (based on customer survey responses collected via Email and/or IVR).
 
-- evolução mensal;
-- comparação com a meta;
-- desempenho por canal;
-- análise temporal.
+- monthly evolution;
+- comparison against the target;
+- performance by channel;
+- time-based analysis.
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Technologies
 
-O projeto utiliza principalmente:
+The project mainly uses:
 
 - **Python**
 - **Streamlit**
 - **Pandas**
-- **Plotly** ou biblioteca equivalente para visualizações interativas
-- **Git/GitHub** para versionamento
+- **Plotly** or an equivalent library for interactive visualizations
+- **Git/GitHub** for version control
 
 ---
 
-## 📊 Dados
+## 📊 Data
 
-O dashboard depende de dados operacionais estruturados para calcular e apresentar os indicadores.
+The dashboard relies on structured operational data to calculate and display the indicators.
 
-O fluxo recomendado é:
+The recommended workflow is:
 
 ```text
-Dados brutos
-     ↓
-Validação
-     ↓
-Limpeza
-     ↓
-Tratamento
-     ↓
-Cálculo dos indicadores
-     ↓
-Agregações
-     ↓
-Visualizações
-     ↓
+Raw Data
+    ↓
+Validation
+    ↓
+Cleaning
+    ↓
+Data Processing
+    ↓
+Indicator Calculation
+    ↓
+Aggregations
+    ↓
+Visualizations
+    ↓
 Dashboard
 ```
 
@@ -150,30 +150,30 @@ Dashboard
 
 ## 🗺️ Roadmap
 
-Possíveis evoluções:
+Possible future improvements:
 
-- [ ] Indicação da data da última atualização dos dados
-- [ ] Resumo executivo como visão inicial
-- [ ] Drill-down de analista
-- [ ] Possibilidade de colocar metas individuais/subgrupo por indicador
-- [ ] Controle de acesso por usuário / Adicionar autenticação
-- [ ] Comparação de períodos (presets como YTD, Mês vs Mês, Ano vs Ano...)
-- [ ] Alertas automáticos
-- [ ] Testes automatizados de regressão
-- [ ] Tooltip com explicações do cálculo de indicadores e regras de negócio
+- [ ] Display the date of the last data update
+- [ ] Executive summary as the initial view
+- [ ] Analyst drill-down
+- [ ] Individual/subgroup targets by indicator
+- [ ] User access control / Authentication
+- [ ] Period comparison (presets such as YTD, Month vs Month, Year vs Year...)
+- [ ] Automated alerts
+- [ ] Automated regression testing
+- [ ] Tooltips explaining indicator calculations and business rules
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
 **André Barcellos Coirolo**
 
-Projeto desenvolvido para aplicação prática de:
+Project developed for practical application of:
 
-- análise de dados;
-- visualização de dados;
-- engenharia de dados;
+- data analysis;
+- data visualization;
+- data engineering;
 - Python;
 - Streamlit;
-- indicadores operacionais;
-- tomada de decisão orientada por dados.
+- operational indicators;
+- data-driven decision-making.
