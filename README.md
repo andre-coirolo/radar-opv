@@ -10,6 +10,14 @@ The goal is to make different levels of analysis — from general monitoring to 
 
 ---
 
+## 📝 Project Context
+
+This project was fully developed as part of my **MBA in Data Science & Analytics**. The dashboard and its underlying data were **anonymized and masked** before being published on GitHub to preserve the confidentiality of the original data and business information.
+
+The dashboard itself remains in **Portuguese**, as it was developed for an academic and professional context in Brazil. The README is written in English to make the project more accessible to an international audience.
+
+---
+
 ## 📸 Preview
 
 Below are some screenshots of the dashboard, showcasing some of the tabs and features included in the project!
@@ -89,7 +97,7 @@ Indicator related to compliance with the expected service/resolution timeframe.
 - comparison between groups;
 - consolidated result for the selected period.
 
-### ⏱️ TMR
+### ⏱️ ART (Average Response Time)
 
 Indicator of the average response time for tickets, used to monitor the average duration of the evaluated services or processes.
 
